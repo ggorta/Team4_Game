@@ -1,3 +1,3 @@
 # Team4_Game
 
-We used [colorize] to change the text colors in irb. (https://github.com/fazibear/colorize)
+We used [colorize](https://github.com/fazibear/colorize) to change the text colors in irb. 
