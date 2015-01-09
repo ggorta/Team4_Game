@@ -58,3 +58,30 @@ wild_pokemon = [
     health: 10
   }
 ]
+
+currentHealth = 10
+
+def battle(pokemon)
+  puts "you have run into #{randomWild}, Would you like to run or fight?"
+  answer1 = gets.chomp
+  if answer1 == "run"
+end
+
+def story(currentPokemon)
+  puts "Would you like to explore? (press y to continue and q to quit)"
+  answer = gets.chomp
+  if answer == "y"
+    battle(currentPokemon)
+    end
+  elsif answer == "q"
+    exit
+  end
+end
+
+puts "Professor Oak calling: 'Hello Ash, Time to explore! Do you want to take Bulbasaur, Squirtle, Charmander?'"
+
+currentPokemon = gets.chomp
+
+puts "Time to head out on your journey, #{currentPokemon} has a health of 10"
+
+story(currentPokemon)
