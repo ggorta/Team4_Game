@@ -4,4 +4,4 @@ Welcome to our Pokemon-themed RPG! It is time to dust off your [pokedex](http://
 Play our game and train fro your battle in the Indigo league--just watch for Team Hash Rocket and Meowth.
 
 NOTES
-*We used [colorize](https://github.com/fazibear/colorize) to change the text colors in irb. 
+  *We used [colorize](https://github.com/fazibear/colorize) to change the text colors in irb. 
