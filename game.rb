@@ -57,5 +57,4 @@ wild_pokemon = [
     attack3: "Dynamic Punch",
     health: 10
   }
-
 ]
