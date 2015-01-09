@@ -1,5 +1,7 @@
 # Team 4 the Win
-# GOTTA CATCH EM
+# GOTTA CATCH EM ALL
+
+require "colorize"
 
 # Character Objects:
 
@@ -65,6 +67,7 @@ def battle(pokemon)
   puts "you have run into #{randomWild}, Would you like to run or fight?"
   answer1 = gets.chomp
   if answer1 == "run"
+  end
 end
 
 def story(currentPokemon)
@@ -72,16 +75,30 @@ def story(currentPokemon)
   answer = gets.chomp
   if answer == "y"
     battle(currentPokemon)
-    end
-  elsif answer == "q"
+  else answer == "q"
     exit
   end
 end
 
-puts "Professor Oak calling: 'Hello Ash, Time to explore! Do you want to take Bulbasaur, Squirtle, Charmander?'"
+puts "Professor Oak: 'Hello Ash, Time to explore! Do you want to take Bulbasaur, Squirtle, or Charmander?'"
 
-currentPokemon = gets.chomp
+selection = gets.chomp.upcase
 
-puts "Time to head out on your journey, #{currentPokemon} has a health of 10"
+  i = 0
+  while i > pokemon.length
+
+    selection = pokemon[i]
+    name = selection[:name]
+
+    # choice == pokemon[i][:name]
+    # if choice == selection
+    #   currentPokemon = pokemon[i]
+    # end
+
+  end
+
+
+
+puts "Time to head out on your journey, #{selection} has a health of 10, and his attack is #{selection.value(attack1)}"
 
 story(currentPokemon)
