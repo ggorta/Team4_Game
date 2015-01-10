@@ -1,0 +1,15 @@
+require "colorize"
+
+puts "▕▔╲┊┊┊┊┊┊┊╱▔▏┊┊┊".colorize(:yellow)
+puts "┊╲╱╲┊┊┊┊┊╱╲╱┊┊┊┊".colorize(:yellow)
+puts "┊┊╲┈╲▂▂▂╱┈╱┊┊┊╱╲".colorize(:yellow)
+puts "┊┊╱┈┈┈┈┈┈┈╲┊┊╱┈┈╲".colorize(:yellow)
+puts "┊┊▏▕▆▍▂▕▆▍▕┊╱┈┈┈╱".colorize(:yellow)
+puts "┊▕╭╮┈┳┻┳┈╭╮▏╲┈┈╱".colorize(:yellow)
+puts "┊┊╲╯┈╰━╯┈╰╱┊╱┈┈╲".colorize(:yellow)
+puts "┊┊╱┈┈┈┈┈┈┈╲┊╲┈┈┈╲".colorize(:yellow)
+puts "┊▕╲┈▕┈┈┈▏┈╱▏┊╱┈╱".colorize(:yellow)
+puts "┊▕┈▔▔┈┈┈▔▔┈▏╱┈╱┊".colorize(:yellow)
+puts "┊▕┈┈┈┈┈┈┈┈▕▔┈╱┊┊".colorize(:yellow)
+puts "┈┈╲┈┈┈┈┈┈┈╱▔▔┈┈┈".colorize(:yellow)
+puts "┈┈▕▂╱▔▔▔╲▂▏┈┈┈┈┈".colorize(:yellow)
